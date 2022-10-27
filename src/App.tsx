@@ -8,6 +8,7 @@ function App() {
     let frame = requestAnimationFrame(loop)
 
     function loop(t: number) {
+      console.log('render')
       frame = requestAnimationFrame(loop)
       if (!canvas) return
       const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
