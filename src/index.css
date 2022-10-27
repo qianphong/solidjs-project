@@ -1,0 +1,7 @@
+canvas {
+  background-color: #666;
+  -webkit-mask: url(https://d33wubrfki0l68.cloudfront.net/2f6479d73bc25170dc532dd42e059166573bf478/61057/favicon.svg)
+    50% 50% no-repeat;
+  mask: url(https://d33wubrfki0l68.cloudfront.net/2f6479d73bc25170dc532dd42e059166573bf478/61057/favicon.svg)
+    50% 50% no-repeat;
+}
