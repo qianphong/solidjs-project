@@ -32,7 +32,7 @@ function App() {
 
     onCleanup(() => cancelAnimationFrame(frame))
   })
-
+  console.log('init')
   return <canvas ref={canvas} width="256" height="256" />
 }
 
