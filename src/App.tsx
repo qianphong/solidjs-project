@@ -8,9 +8,6 @@ function App() {
     let frame = requestAnimationFrame(loop)
 
     function loop(t: number) {
-      console.log('render')
-      console.log('1')
-      console.log('2')
       frame = requestAnimationFrame(loop)
       if (!canvas) return
       const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
@@ -35,7 +32,6 @@ function App() {
 
     onCleanup(() => cancelAnimationFrame(frame))
   })
-  console.log('init')
   return <canvas ref={canvas} width="256" height="256" />
 }
 
